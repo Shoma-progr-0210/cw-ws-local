@@ -1,0 +1,14 @@
+services:
+  cw-ws-local:
+    build: .
+    environment:
+      - GOOGLE_CLOUD_PROJECT=ai-agent-hackathon-20250522
+      - GOOGLE_GENAI_USE_VERTEXAI=1
+      - GOOGLE_CLOUD_LOCATION=us-central1
+      - GOOGLE_APPLICATION_CREDENTIALS=/cw-ws-local/google_application_credential.json
+    volumes:
+      # Mounts the project folder to '/workspace'. The target path inside the container
+      # should match what your application expects. In this case, the compose file is
+      # in a sub-folder, so you will mount '..'. You would then reference this path as the
+      # 'workspaceFolder' in '.devcontainer/devcontainer.json' so VS Code starts here.
+      - ..:/cw-ws-local:cached
