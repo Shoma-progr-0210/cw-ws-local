@@ -1,11 +1,11 @@
-# Cloud Workstations local構築
+# Cloud Workstations Local構築
 
 ## 前提条件
 
 - Dockerコンテナを動かす環境がある
 - VSCodeが使える
 
-## Cloud Workstations localのソースコード取得
+## Cloud Workstations Localのソースコード取得
 
 Vscodeのdevcontainerのソースコードを取得する  
 
@@ -61,13 +61,13 @@ https://cloud.google.com/vertex-ai/generative-ai/docs/start/api-keys?hl=ja
 ファイル名を以下に変更  
 `google_application_credential.json`
 
-## Cloud Workstations localのDevContainer起動
+## Cloud Workstations LocalのDev Container起動
 
 [Quick start: Open an existing folder in a container](https://code.visualstudio.com/docs/devcontainers/containers#_quick-start-open-an-existing-folder-in-a-container)
 
 ## 動作確認
 
-VSCodeのターミナルで以下を実行
+(Dev Containerに接続した状態で) VSCodeのターミナルで以下を実行
 
 ```bash
 cd /cw-ws-local
