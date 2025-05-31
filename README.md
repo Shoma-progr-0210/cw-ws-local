@@ -79,3 +79,9 @@ adk web
 ```
 
 動作すればOK
+
+## 参考
+
+[Cloud Workstations Documentation - 事前構成済みのベースイメージ](https://cloud.google.com/workstations/docs/preconfigured-base-images?hl=ja)
+
+[Visual Studio Code Docs - 開発コンテナを作成する](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
